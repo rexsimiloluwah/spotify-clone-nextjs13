@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write src/**/*.{ts,tsx,json,css}",
-    "success-message": "Ready to push to GitHub 🚀"
+    "success-message": "Ready to push to GitHub 🚀",
+    "prepare": "husky install"
   },
   "husky": {
     "hooks": {
@@ -50,7 +51,7 @@
   },
   "devDependencies": {
     "@types/spotify-web-api-node": "^5.0.7",
-    "husky": "4",
+    "husky": "^8.0.3",
     "lint-staged": "^14.0.0",
     "prettier": "^3.0.2"
   }
